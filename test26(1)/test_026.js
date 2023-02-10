@@ -83,19 +83,32 @@ looker.plugins.visualizations.add({
 `;
 generatedHTML += "<table class='table'>";
 generatedHTML += "<tr class='table-header'>";
-generatedHTML += `<th class='table-header' rowspan='1' colspan='3'>Applicable limit</th>`;
+generatedHTML += `<th class='table-header' rowspan='2' colspan='2' > </th>`;
+generatedHTML += `<th class='table-header' rowspan='1'>Applicable limit</th>`;
 generatedHTML += "</tr>";
+
 generatedHTML += "<tr class='table-header'>";
-generatedHTML += `<th class='table-header'> </th>`;
-generatedHTML += `<th class='table-header' rowspan='2' colspan='3'> 010 </th>`;
-generatedHTML += `<th class='table-header' rowspan='3' colspan='1'> 010 </th>`;
-generatedHTML += `<th class='table-header' rowspan='4' colspan='1'> 020 </th>`;
-generatedHTML += `<th class='table-header' rowspan='5' colspan='1'> 030 </th>`;
-generatedHTML += `<th class='table-header' rowspan='6' colspan='1'> 040 </th>`;
-generatedHTML += `<th class='table-header' rowspan='3' colspan='2'> Non institutions </th>`;
-generatedHTML += `<th class='table-header' rowspan='4' colspan='2'> Institutions </th>`;
-generatedHTML += `<th class='table-header' rowspan='5' colspan='2'> Institutions in % </th>`;
-generatedHTML += `<th class='table-header' rowspan='6' colspan='2'> Globally Systemic Important Institutions (G-SIIs) </th>`;
+generatedHTML += `<th class='table-header'> 010 </th>`;
+generatedHTML += "</tr>";
+
+generatedHTML += "<tr class='table-header'>";
+generatedHTML += `<th class='table-header'> 010 </th>`;
+generatedHTML += `<th class='table-header'> Non institutions </th>`;
+generatedHTML += "</tr>";
+
+generatedHTML += "<tr class='table-header'>";
+generatedHTML += `<th class='table-header'> 020 </th>`;
+generatedHTML += `<th class='table-header'> Institutions </th>`;
+generatedHTML += "</tr>";
+
+generatedHTML += "<tr class='table-header'>";
+generatedHTML += `<th class='table-header'> 030 </th>`;
+generatedHTML += `<th class='table-header'> Institutions in % </th>`;
+generatedHTML += "</tr>";
+
+generatedHTML += "<tr class='table-header'>";
+generatedHTML += `<th class='table-header'> 040 </th>`;
+generatedHTML += `<th class='table-header'> Globally Systemic Important Institutions (G-SIIs) </th>`;
 generatedHTML += "</tr>";
 
    // First row is the header
